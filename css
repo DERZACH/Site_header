@@ -1,11 +1,17 @@
 .header {
     display: flex;
-    justify-content: space-around;
-    margin-top: 50px;  
+    justify-content: space-around;  
 }
 
 .header__logo {
     font-family:Trebuchet MS, sans-serif;
+    margin-top: 35px;
+    font-size: 35px;
+}
+
+.header__logo a {
+    text-decoration: none;
+    color: black;
 }
 
 .header__menu a {
@@ -17,18 +23,37 @@
 }
 
 .header__menu {
-    margin-top: 30px;
+    margin-top: 50px;
 }
 
 .header__knopka button {
-    border-radius: 20px;
-    padding: 30px;
+    /* border-radius: 20px;
+    padding: 20px;
     padding-left: 60px;
     padding-right: 60px;
     font-size: 20px;
     font-family:Trebuchet MS, sans-serif;
     cursor:pointer;
     background-color: white;
+    margin-top: 30px; */
+    padding: 15px 25px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999
+}
+
+.header__knopka button:hover {background-color: #3e8e41}
+
+.header__knopka button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
 }
 
 .service {
